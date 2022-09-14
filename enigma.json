@@ -1,0 +1,8 @@
+{
+	"model": "M3Army",
+	"reflector": "C",
+	"rotors": ["V", "I", "III"],
+	"rings": ["S", "R", "E"],
+	"plugboard": ["CS", "ER"],
+	"position": ["E", "H", "S"]
+}
