@@ -1,12 +1,12 @@
 {
 	"tasks": {
-		"enigma": "deno run --allow-read ./enigma.ts",
+		"enigma": "deno run --allow-read --unstable ./enigma.ts",
 		"sample": "deno task enigma enigma.json --debug",
-		"build": "tsc -p ./src"
+		"build": "deno bundle ./src/browser.ts ./docs/enigma.js & tsc -p ./docs"
 	},
 	"lint": {
 		"files": {
-			"include": ["./src"]
+			"include": ["./src", "./enigma.ts"]
 		},
 		"rules": {
 			"tags": ["recommended"],
@@ -16,7 +16,7 @@
 	},
 	"fmt": {
 		"files": {
-			"include": ["./src"]
+			"include": ["./src", "./enigma.ts"]
 		},
 		"options": {
 			"useTabs": true,

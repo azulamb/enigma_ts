@@ -1,5 +1,5 @@
 {
-	"model": "M3Army",
+	"model": "EnigmaI",
 	"reflector": "C",
 	"rotors": ["V", "I", "III"],
 	"rings": ["S", "R", "E"],
