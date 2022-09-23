@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 600 840" xmlns="http://www.w3.org/2000/svg">
+ <rect width="600" height="840" fill="#fff"/>
+ <rect x="580" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="580" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="580" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" text-anchor="middle">
+  <text x="590" y="70" text-align="center" xml:space="preserve"><tspan x="590" y="70" text-align="center">A</tspan><tspan x="590" y="100" text-align="center"/></text>
+  <text x="590" y="99.999985" text-align="center" xml:space="preserve"><tspan x="590" y="99.999985" text-align="center">B</tspan><tspan x="590" y="129.99998" text-align="center"/></text>
+  <text x="590" y="129.99995" text-align="center" xml:space="preserve"><tspan x="590" y="129.99995" text-align="center">C</tspan><tspan x="590" y="159.99995" text-align="center"/></text>
+  <text x="590" y="159.99992" text-align="center" xml:space="preserve"><tspan x="590" y="159.99992" text-align="center">D</tspan><tspan x="590" y="189.99992" text-align="center"/></text>
+  <text x="590" y="189.99992" text-align="center" xml:space="preserve"><tspan x="590" y="189.99992" text-align="center">E</tspan><tspan x="590" y="219.99992" text-align="center"/></text>
+  <text x="590" y="219.99992" text-align="center" xml:space="preserve"><tspan x="590" y="219.99992" text-align="center">F</tspan><tspan x="590" y="249.99992" text-align="center"/></text>
+  <text x="590" y="249.99992" text-align="center" xml:space="preserve"><tspan x="590" y="249.99992" text-align="center">G</tspan><tspan x="590" y="279.99991" text-align="center"/></text>
+  <text x="590" y="279.99988" text-align="center" xml:space="preserve"><tspan x="590" y="279.99988" text-align="center">H</tspan><tspan x="590" y="309.99988" text-align="center"/></text>
+  <text x="590" y="309.99985" text-align="center" xml:space="preserve"><tspan x="590" y="309.99985" text-align="center">I</tspan><tspan x="590" y="339.99985" text-align="center"/></text>
+  <text x="590" y="339.99985" text-align="center" xml:space="preserve"><tspan x="590" y="339.99985" text-align="center">J</tspan><tspan x="590" y="369.99985" text-align="center"/></text>
+  <text x="590" y="369.99985" text-align="center" xml:space="preserve"><tspan x="590" y="369.99985" text-align="center">K</tspan><tspan x="590" y="399.99985" text-align="center"/></text>
+  <text x="590" y="399.99982" text-align="center" xml:space="preserve"><tspan x="590" y="399.99982" text-align="center">L</tspan><tspan x="590" y="429.99982" text-align="center"/></text>
+  <text x="590" y="429.99982" text-align="center" xml:space="preserve"><tspan x="590" y="429.99982" text-align="center">M</tspan><tspan x="590" y="459.99982" text-align="center"/></text>
+  <text x="590" y="459.99982" text-align="center" xml:space="preserve"><tspan x="590" y="459.99982" text-align="center">N</tspan><tspan x="590" y="489.99982" text-align="center"/></text>
+  <text x="590" y="489.99973" text-align="center" xml:space="preserve"><tspan x="590" y="489.99973" text-align="center">O</tspan><tspan x="590" y="519.99969" text-align="center"/></text>
+  <text x="590" y="519.99976" text-align="center" xml:space="preserve"><tspan x="590" y="519.99976" text-align="center">P</tspan><tspan x="590" y="549.99976" text-align="center"/></text>
+  <text x="590" y="549.99969" text-align="center" xml:space="preserve"><tspan x="590" y="549.99969" text-align="center">Q</tspan><tspan x="590" y="579.99969" text-align="center"/></text>
+  <text x="590" y="579.99982" text-align="center" xml:space="preserve"><tspan x="590" y="579.99982" text-align="center">R</tspan><tspan x="590" y="609.99982" text-align="center"/></text>
+  <text x="590" y="609.99976" text-align="center" xml:space="preserve"><tspan x="590" y="609.99976" text-align="center">S</tspan><tspan x="590" y="639.99976" text-align="center"/></text>
+  <text x="590" y="639.99969" text-align="center" xml:space="preserve"><tspan x="590" y="639.99969" text-align="center">T</tspan><tspan x="590" y="669.99969" text-align="center"/></text>
+  <text x="590" y="669.99969" text-align="center" xml:space="preserve"><tspan x="590" y="669.99969" text-align="center">U</tspan><tspan x="590" y="699.99969" text-align="center"/></text>
+  <text x="590" y="699.99969" text-align="center" xml:space="preserve"><tspan x="590" y="699.99969" text-align="center">V</tspan><tspan x="590" y="729.99969" text-align="center"/></text>
+  <text x="590" y="729.99969" text-align="center" xml:space="preserve"><tspan x="590" y="729.99969" text-align="center">W</tspan><tspan x="590" y="759.99969" text-align="center"/></text>
+  <text x="590" y="759.99969" text-align="center" xml:space="preserve"><tspan x="590" y="759.99969" text-align="center">X</tspan><tspan x="590" y="789.99969" text-align="center"/></text>
+  <text x="590" y="789.99963" text-align="center" xml:space="preserve"><tspan x="590" y="789.99963" text-align="center">Y</tspan><tspan x="590" y="819.99963" text-align="center"/></text>
+  <text x="590" y="819.99969" text-align="center" xml:space="preserve"><tspan x="590" y="819.99969" text-align="center">Z</tspan><tspan x="590" y="849.99969" text-align="center"/></text>
+ </g>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m580 65.477h-20"/>
+  <path d="m580 95.477h-20"/>
+  <path d="m580 125.48h-20"/>
+  <path d="m580 155.48h-20"/>
+  <path d="m580 185.48h-20"/>
+  <path d="m580 215.48h-20"/>
+  <path d="m580 245.48h-20"/>
+  <path d="m580 275.48h-20"/>
+  <path d="m580 305.48h-20"/>
+  <path d="m580 335.48h-20"/>
+  <path d="m580 365.48h-20"/>
+  <path d="m580 395.48h-20"/>
+  <path d="m580 425.48h-20"/>
+  <path d="m580 455.48h-20"/>
+  <path d="m580 485.48h-20"/>
+  <path d="m580 515.48h-20"/>
+  <path d="m580 545.48h-20"/>
+  <path d="m580 575.48h-20"/>
+  <path d="m580 605.48h-20"/>
+  <path d="m580 635.48h-20"/>
+  <path d="m580 665.48h-20"/>
+  <path d="m580 695.48h-20"/>
+  <path d="m580 725.48h-20"/>
+  <path d="m580 755.48h-20"/>
+  <path d="m580 785.48h-20"/>
+  <path d="m580 815.48h-20"/>
+ </g>
+ <rect x="480" y="50" width="80" height="780" fill="#e6e6e6"/>
+ <text x="520" y="25.000002" fill="#000000" font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="520" y="25.000002" fill="#000000" stroke-width="20" text-align="center" text-anchor="middle">Plug</tspan></text>
+ <text x="520" y="45.000004" fill="#000000" font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="520" y="45.000004" text-align="center">Board</tspan><tspan x="520" y="75.000008" text-align="center"/></text>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m540 65.477-40-8e-6"/>
+  <path d="m540 95.477-40-7e-6"/>
+  <path d="m540 125.48-40-1e-5"/>
+  <path d="m540 155.48h-40"/>
+  <path d="m540 185.48-40-1e-5"/>
+  <path d="m540 215.48-40-1e-5"/>
+  <path d="m540 245.48-40-1e-5"/>
+  <path d="m540 275.48-40-1e-5"/>
+  <path d="m540 305.48h-40"/>
+  <path d="m540 335.48-40-1e-5"/>
+  <path d="m540 365.48h-40"/>
+  <path d="m540 395.48h-40"/>
+  <path d="m540 425.48h-40"/>
+  <path d="m540 455.48h-40"/>
+  <path d="m540 485.48h-40"/>
+  <path d="m540 515.48h-40"/>
+  <path d="m540 545.48h-40"/>
+  <path d="m540 575.48h-40"/>
+  <path d="m540 605.48h-40"/>
+  <path d="m540 635.48h-40"/>
+  <path d="m540 665.48h-40"/>
+  <path d="m540 695.48h-40"/>
+  <path d="m540 725.48h-40"/>
+  <path d="m540 755.48h-40"/>
+  <path d="m540 785.48h-40"/>
+  <path d="m540 815.48h-40"/>
+ </g>
+ <rect x="540" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="540" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="540" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="550" y="70.000008" text-align="center" xml:space="preserve"><tspan x="550" y="70.000008" text-align="center">A</tspan><tspan x="550" y="100.00001" text-align="center"/></text>
+  <text x="550" y="99.999985" text-align="center" xml:space="preserve"><tspan x="550" y="99.999985" text-align="center">B</tspan><tspan x="550" y="129.99998" text-align="center"/></text>
+  <text x="550" y="129.99995" text-align="center" xml:space="preserve"><tspan x="550" y="129.99995" text-align="center">C</tspan><tspan x="550" y="159.99995" text-align="center"/></text>
+  <text x="550" y="159.99992" text-align="center" xml:space="preserve"><tspan x="550" y="159.99992" text-align="center">D</tspan><tspan x="550" y="189.99992" text-align="center"/></text>
+  <text x="550" y="189.99992" text-align="center" xml:space="preserve"><tspan x="550" y="189.99992" text-align="center">E</tspan><tspan x="550" y="219.99992" text-align="center"/></text>
+  <text x="550" y="219.99991" text-align="center" xml:space="preserve"><tspan x="550" y="219.99991" text-align="center">F</tspan><tspan x="550" y="249.99992" text-align="center"/></text>
+  <text x="550" y="249.99992" text-align="center" xml:space="preserve"><tspan x="550" y="249.99992" text-align="center">G</tspan><tspan x="550" y="279.99991" text-align="center"/></text>
+  <text x="550" y="279.99988" text-align="center" xml:space="preserve"><tspan x="550" y="279.99988" text-align="center">H</tspan><tspan x="550" y="309.99991" text-align="center"/></text>
+  <text x="550" y="309.99988" text-align="center" xml:space="preserve"><tspan x="550" y="309.99988" text-align="center">I</tspan><tspan x="550" y="339.99988" text-align="center"/></text>
+  <text x="550" y="339.99988" text-align="center" xml:space="preserve"><tspan x="550" y="339.99988" text-align="center">J</tspan><tspan x="550" y="369.99988" text-align="center"/></text>
+  <text x="550" y="369.99985" text-align="center" xml:space="preserve"><tspan x="550" y="369.99985" text-align="center">K</tspan><tspan x="550" y="399.99985" text-align="center"/></text>
+  <text x="550" y="399.99979" text-align="center" xml:space="preserve"><tspan x="550" y="399.99979" text-align="center">L</tspan><tspan x="550" y="429.99979" text-align="center"/></text>
+  <text x="550" y="429.99979" text-align="center" xml:space="preserve"><tspan x="550" y="429.99979" text-align="center">M</tspan><tspan x="550" y="459.99979" text-align="center"/></text>
+  <text x="550" y="459.99979" text-align="center" xml:space="preserve"><tspan x="550" y="459.99979" text-align="center">N</tspan><tspan x="550" y="489.99979" text-align="center"/></text>
+  <text x="550" y="489.99973" text-align="center" xml:space="preserve"><tspan x="550" y="489.99973" text-align="center">O</tspan><tspan x="550" y="519.99976" text-align="center"/></text>
+  <text x="550" y="519.99982" text-align="center" xml:space="preserve"><tspan x="550" y="519.99982" text-align="center">P</tspan><tspan x="550" y="549.99982" text-align="center"/></text>
+  <text x="550" y="549.99969" text-align="center" xml:space="preserve"><tspan x="550" y="549.99969" text-align="center">Q</tspan><tspan x="550" y="579.99969" text-align="center"/></text>
+  <text x="550" y="579.99982" text-align="center" xml:space="preserve"><tspan x="550" y="579.99982" text-align="center">R</tspan><tspan x="550" y="609.99982" text-align="center"/></text>
+  <text x="550" y="609.99976" text-align="center" xml:space="preserve"><tspan x="550" y="609.99976" text-align="center">S</tspan><tspan x="550" y="639.99976" text-align="center"/></text>
+  <text x="550" y="639.99969" text-align="center" xml:space="preserve"><tspan x="550" y="639.99969" text-align="center">T</tspan><tspan x="550" y="669.99969" text-align="center"/></text>
+  <text x="550" y="669.99969" text-align="center" xml:space="preserve"><tspan x="550" y="669.99969" text-align="center">U</tspan><tspan x="550" y="699.99969" text-align="center"/></text>
+  <text x="550" y="699.99969" text-align="center" xml:space="preserve"><tspan x="550" y="699.99969" text-align="center">V</tspan><tspan x="550" y="729.99969" text-align="center"/></text>
+  <text x="550" y="729.99969" text-align="center" xml:space="preserve"><tspan x="550" y="729.99969" text-align="center">W</tspan><tspan x="550" y="759.99969" text-align="center"/></text>
+  <text x="550" y="759.99969" text-align="center" xml:space="preserve"><tspan x="550" y="759.99969" text-align="center">X</tspan><tspan x="550" y="789.99969" text-align="center"/></text>
+  <text x="550" y="789.99963" text-align="center" xml:space="preserve"><tspan x="550" y="789.99963" text-align="center">Y</tspan><tspan x="550" y="819.99963" text-align="center"/></text>
+  <text x="550" y="819.99969" text-align="center" xml:space="preserve"><tspan x="550" y="819.99969" text-align="center">Z</tspan><tspan x="550" y="849.99969" text-align="center"/></text>
+ </g>
+ <rect x="480" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="480" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="480" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="490.00009" y="70.000114" text-align="center" xml:space="preserve"><tspan x="490.00009" y="70.000114" text-align="center">A</tspan><tspan x="490.00009" y="100.00012" text-align="center"/></text>
+  <text x="490.00009" y="100.0001" text-align="center" xml:space="preserve"><tspan x="490.00009" y="100.0001" text-align="center">B</tspan><tspan x="490.00009" y="130.00009" text-align="center"/></text>
+  <text x="490.00009" y="130.00006" text-align="center" xml:space="preserve"><tspan x="490.00009" y="130.00006" text-align="center">C</tspan><tspan x="490.00009" y="160.00006" text-align="center"/></text>
+  <text x="490.00009" y="160.00005" text-align="center" xml:space="preserve"><tspan x="490.00009" y="160.00005" text-align="center">D</tspan><tspan x="490.00009" y="190.00005" text-align="center"/></text>
+  <text x="490.00009" y="190.00005" text-align="center" xml:space="preserve"><tspan x="490.00009" y="190.00005" text-align="center">E</tspan><tspan x="490.00009" y="220.00005" text-align="center"/></text>
+  <text x="490.00009" y="220.00003" text-align="center" xml:space="preserve"><tspan x="490.00009" y="220.00003" text-align="center">F</tspan><tspan x="490.00009" y="250.00003" text-align="center"/></text>
+  <text x="490.00009" y="250.00003" text-align="center" xml:space="preserve"><tspan x="490.00009" y="250.00003" text-align="center">G</tspan><tspan x="490.00009" y="280.00003" text-align="center"/></text>
+  <text x="490.00009" y="280" text-align="center" xml:space="preserve"><tspan x="490.00009" y="280" text-align="center">H</tspan><tspan x="490.00009" y="310" text-align="center"/></text>
+  <text x="490.00009" y="309.99997" text-align="center" xml:space="preserve"><tspan x="490.00009" y="309.99997" text-align="center">I</tspan><tspan x="490.00009" y="339.99997" text-align="center"/></text>
+  <text x="490.00009" y="339.99997" text-align="center" xml:space="preserve"><tspan x="490.00009" y="339.99997" text-align="center">J</tspan><tspan x="490.00009" y="370" text-align="center"/></text>
+  <text x="490.00009" y="369.99997" text-align="center" xml:space="preserve"><tspan x="490.00009" y="369.99997" text-align="center">K</tspan><tspan x="490.00009" y="399.99997" text-align="center"/></text>
+  <text x="490.00009" y="399.99988" text-align="center" xml:space="preserve"><tspan x="490.00009" y="399.99988" text-align="center">L</tspan><tspan x="490.00009" y="429.99988" text-align="center"/></text>
+  <text x="490.00009" y="429.99988" text-align="center" xml:space="preserve"><tspan x="490.00009" y="429.99988" text-align="center">M</tspan><tspan x="490.00009" y="459.99988" text-align="center"/></text>
+  <text x="490.00009" y="459.99988" text-align="center" xml:space="preserve"><tspan x="490.00009" y="459.99988" text-align="center">N</tspan><tspan x="490.00009" y="489.99985" text-align="center"/></text>
+  <text x="490.00009" y="489.99985" text-align="center" xml:space="preserve"><tspan x="490.00009" y="489.99985" text-align="center">O</tspan><tspan x="490.00009" y="519.99988" text-align="center"/></text>
+  <text x="490.00009" y="519.99994" text-align="center" xml:space="preserve"><tspan x="490.00009" y="519.99994" text-align="center">P</tspan><tspan x="490.00009" y="549.99994" text-align="center"/></text>
+  <text x="490.00009" y="549.99982" text-align="center" xml:space="preserve"><tspan x="490.00009" y="549.99982" text-align="center">Q</tspan><tspan x="490.00009" y="579.99982" text-align="center"/></text>
+  <text x="490.00009" y="579.99994" text-align="center" xml:space="preserve"><tspan x="490.00009" y="579.99994" text-align="center">R</tspan><tspan x="490.00009" y="609.99994" text-align="center"/></text>
+  <text x="490.00009" y="609.99988" text-align="center" xml:space="preserve"><tspan x="490.00009" y="609.99988" text-align="center">S</tspan><tspan x="490.00009" y="639.99988" text-align="center"/></text>
+  <text x="490.00009" y="639.99982" text-align="center" xml:space="preserve"><tspan x="490.00009" y="639.99982" text-align="center">T</tspan><tspan x="490.00009" y="669.99982" text-align="center"/></text>
+  <text x="490.00009" y="669.99982" text-align="center" xml:space="preserve"><tspan x="490.00009" y="669.99982" text-align="center">U</tspan><tspan x="490.00009" y="699.99982" text-align="center"/></text>
+  <text x="490.00009" y="699.99982" text-align="center" xml:space="preserve"><tspan x="490.00009" y="699.99982" text-align="center">V</tspan><tspan x="490.00009" y="729.99982" text-align="center"/></text>
+  <text x="490.00009" y="729.99982" text-align="center" xml:space="preserve"><tspan x="490.00009" y="729.99982" text-align="center">W</tspan><tspan x="490.00009" y="759.99982" text-align="center"/></text>
+  <text x="490.00009" y="759.99982" text-align="center" xml:space="preserve"><tspan x="490.00009" y="759.99982" text-align="center">X</tspan><tspan x="490.00009" y="789.99982" text-align="center"/></text>
+  <text x="490.00009" y="789.99976" text-align="center" xml:space="preserve"><tspan x="490.00009" y="789.99976" text-align="center">Y</tspan><tspan x="490.00009" y="819.99976" text-align="center"/></text>
+  <text x="490.00009" y="819.99982" text-align="center" xml:space="preserve"><tspan x="490.00009" y="819.99982" text-align="center">Z</tspan><tspan x="490.00009" y="849.99982" text-align="center"/></text>
+ </g>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m480 65h-20"/>
+  <path d="m480 95h-20"/>
+  <path d="m480 125h-20"/>
+  <path d="m480 155h-20"/>
+  <path d="m480 185h-20"/>
+  <path d="m480 215h-20"/>
+  <path d="m480 245h-20"/>
+  <path d="m480 275h-20"/>
+  <path d="m480 305h-20"/>
+  <path d="m480 335h-20"/>
+  <path d="m480 365h-20"/>
+  <path d="m480 395h-20"/>
+  <path d="m480 425h-20"/>
+  <path d="m480 455h-20"/>
+  <path d="m480 485h-20"/>
+  <path d="m480 515h-20"/>
+  <path d="m480 545h-20"/>
+  <path d="m480 575h-20"/>
+  <path d="m480 605h-20"/>
+  <path d="m480 635h-20"/>
+  <path d="m480 665h-20"/>
+  <path d="m480 695h-20"/>
+  <path d="m480 725h-20"/>
+  <path d="m480 755h-20"/>
+  <path d="m480 785h-20"/>
+  <path d="m480 815h-20"/>
+ </g>
+ <rect x="380" y="50" width="80" height="780" fill="#e6e6e6"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="400.00003" y="45.000004" text-align="center" xml:space="preserve"><tspan x="400.00003" y="45.000004" text-align="center">I</tspan><tspan x="400.00003" y="75.000008" text-align="center"/></text>
+  <text x="420" y="25.000002" text-align="center" xml:space="preserve"><tspan x="420" y="25.000002" text-align="center">Rotor</tspan><tspan x="420" y="55.000004" text-align="center"/></text>
+  <text x="440" y="45.000004" text-align="center" xml:space="preserve"><tspan x="440" y="45.000004" text-align="center">A</tspan><tspan x="440" y="75.000008" text-align="center"/></text>
+ </g>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m440 65.477-40-8e-6"/>
+  <path d="m440 95.477-40-7e-6"/>
+  <path d="m440 125.48-40-1e-5"/>
+  <path d="m440 155.48h-40"/>
+  <path d="m440 185.48-40-1e-5"/>
+  <path d="m440 215.48-40-1e-5"/>
+  <path d="m440 245.48-40-1e-5"/>
+  <path d="m440 275.48-40-1e-5"/>
+  <path d="m440 305.48h-40"/>
+  <path d="m440 335.48-40-1e-5"/>
+  <path d="m440 365.48h-40"/>
+  <path d="m440 395.48h-40"/>
+  <path d="m440 425.48h-40"/>
+  <path d="m440 455.48h-40"/>
+  <path d="m440 485.48h-40"/>
+  <path d="m440 515.48h-40"/>
+  <path d="m440 545.48h-40"/>
+  <path d="m440 575.48h-40"/>
+  <path d="m440 605.48h-40"/>
+  <path d="m440 635.48h-40"/>
+  <path d="m440 665.48h-40"/>
+  <path d="m440 695.48h-40"/>
+  <path d="m440 725.48h-40"/>
+  <path d="m440 755.48h-40"/>
+  <path d="m440 785.48h-40"/>
+  <path d="m440 815.48h-40"/>
+ </g>
+ <rect x="440" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="440" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="440" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="450.00003" y="70.000114" text-align="center" xml:space="preserve"><tspan x="450.00003" y="70.000114" text-align="center">A</tspan><tspan x="450.00003" y="100.00012" text-align="center"/></text>
+  <text x="450.00003" y="100.0001" text-align="center" xml:space="preserve"><tspan x="450.00003" y="100.0001" text-align="center">B</tspan><tspan x="450.00003" y="130.00009" text-align="center"/></text>
+  <text x="450.00003" y="130.00006" text-align="center" xml:space="preserve"><tspan x="450.00003" y="130.00006" text-align="center">C</tspan><tspan x="450.00003" y="160.00006" text-align="center"/></text>
+  <text x="450.00003" y="160.00005" text-align="center" xml:space="preserve"><tspan x="450.00003" y="160.00005" text-align="center">D</tspan><tspan x="450.00003" y="190.00005" text-align="center"/></text>
+  <text x="450.00003" y="190.00005" text-align="center" xml:space="preserve"><tspan x="450.00003" y="190.00005" text-align="center">E</tspan><tspan x="450.00003" y="220.00005" text-align="center"/></text>
+  <text x="450.00003" y="220.00003" text-align="center" xml:space="preserve"><tspan x="450.00003" y="220.00003" text-align="center">F</tspan><tspan x="450.00003" y="250.00003" text-align="center"/></text>
+  <text x="450.00003" y="250.00003" text-align="center" xml:space="preserve"><tspan x="450.00003" y="250.00003" text-align="center">G</tspan><tspan x="450.00003" y="280.00003" text-align="center"/></text>
+  <text x="450.00003" y="280" text-align="center" xml:space="preserve"><tspan x="450.00003" y="280" text-align="center">H</tspan><tspan x="450.00003" y="310" text-align="center"/></text>
+  <text x="450.00003" y="309.99997" text-align="center" xml:space="preserve"><tspan x="450.00003" y="309.99997" text-align="center">I</tspan><tspan x="450.00003" y="339.99997" text-align="center"/></text>
+  <text x="450.00003" y="339.99997" text-align="center" xml:space="preserve"><tspan x="450.00003" y="339.99997" text-align="center">J</tspan><tspan x="450.00003" y="370" text-align="center"/></text>
+  <text x="450.00003" y="369.99997" text-align="center" xml:space="preserve"><tspan x="450.00003" y="369.99997" text-align="center">K</tspan><tspan x="450.00003" y="399.99997" text-align="center"/></text>
+  <text x="450.00003" y="399.99988" text-align="center" xml:space="preserve"><tspan x="450.00003" y="399.99988" text-align="center">L</tspan><tspan x="450.00003" y="429.99988" text-align="center"/></text>
+  <text x="450.00003" y="429.99988" text-align="center" xml:space="preserve"><tspan x="450.00003" y="429.99988" text-align="center">M</tspan><tspan x="450.00003" y="459.99988" text-align="center"/></text>
+  <text x="450.00003" y="459.99988" text-align="center" xml:space="preserve"><tspan x="450.00003" y="459.99988" text-align="center">N</tspan><tspan x="450.00003" y="489.99985" text-align="center"/></text>
+  <text x="450.00003" y="489.99985" text-align="center" xml:space="preserve"><tspan x="450.00003" y="489.99985" text-align="center">O</tspan><tspan x="450.00003" y="519.99988" text-align="center"/></text>
+  <text x="450.00003" y="519.99994" text-align="center" xml:space="preserve"><tspan x="450.00003" y="519.99994" text-align="center">P</tspan><tspan x="450.00003" y="549.99994" text-align="center"/></text>
+  <text x="450.00003" y="549.99982" text-align="center" xml:space="preserve"><tspan x="450.00003" y="549.99982" text-align="center">Q</tspan><tspan x="450.00003" y="579.99982" text-align="center"/></text>
+  <text x="450.00003" y="579.99994" text-align="center" xml:space="preserve"><tspan x="450.00003" y="579.99994" text-align="center">R</tspan><tspan x="450.00003" y="609.99994" text-align="center"/></text>
+  <text x="450.00003" y="609.99988" text-align="center" xml:space="preserve"><tspan x="450.00003" y="609.99988" text-align="center">S</tspan><tspan x="450.00003" y="639.99988" text-align="center"/></text>
+  <text x="450.00003" y="639.99982" text-align="center" xml:space="preserve"><tspan x="450.00003" y="639.99982" text-align="center">T</tspan><tspan x="450.00003" y="669.99982" text-align="center"/></text>
+  <text x="450.00003" y="669.99982" text-align="center" xml:space="preserve"><tspan x="450.00003" y="669.99982" text-align="center">U</tspan><tspan x="450.00003" y="699.99982" text-align="center"/></text>
+  <text x="450.00003" y="699.99982" text-align="center" xml:space="preserve"><tspan x="450.00003" y="699.99982" text-align="center">V</tspan><tspan x="450.00003" y="729.99982" text-align="center"/></text>
+  <text x="450.00003" y="729.99982" text-align="center" xml:space="preserve"><tspan x="450.00003" y="729.99982" text-align="center">W</tspan><tspan x="450.00003" y="759.99982" text-align="center"/></text>
+  <text x="450.00003" y="759.99982" text-align="center" xml:space="preserve"><tspan x="450.00003" y="759.99982" text-align="center">X</tspan><tspan x="450.00003" y="789.99982" text-align="center"/></text>
+  <text x="450.00003" y="789.99976" text-align="center" xml:space="preserve"><tspan x="450.00003" y="789.99976" text-align="center">Y</tspan><tspan x="450.00003" y="819.99976" text-align="center"/></text>
+  <text x="450.00003" y="819.99982" text-align="center" xml:space="preserve"><tspan x="450.00003" y="819.99982" text-align="center">Z</tspan><tspan x="450.00003" y="849.99982" text-align="center"/></text>
+ </g>
+ <rect x="380" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="380" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="380" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="390.00006" y="70.000107" text-align="center" xml:space="preserve"><tspan x="390.00006" y="70.000107" text-align="center">A</tspan><tspan x="390.00006" y="100.00011" text-align="center"/></text>
+  <text x="390.00006" y="100.00008" text-align="center" xml:space="preserve"><tspan x="390.00006" y="100.00008" text-align="center">B</tspan><tspan x="390.00006" y="130.00008" text-align="center"/></text>
+  <text x="390.00006" y="130.00005" text-align="center" xml:space="preserve"><tspan x="390.00006" y="130.00005" text-align="center">C</tspan><tspan x="390.00006" y="160.00005" text-align="center"/></text>
+  <text x="390.00006" y="160.00003" text-align="center" xml:space="preserve"><tspan x="390.00006" y="160.00003" text-align="center">D</tspan><tspan x="390.00006" y="190.00003" text-align="center"/></text>
+  <text x="390.00006" y="190.00005" text-align="center" xml:space="preserve"><tspan x="390.00006" y="190.00005" text-align="center">E</tspan><tspan x="390.00006" y="220.00005" text-align="center"/></text>
+  <text x="390.00006" y="220.00003" text-align="center" xml:space="preserve"><tspan x="390.00006" y="220.00003" text-align="center">F</tspan><tspan x="390.00006" y="250.00003" text-align="center"/></text>
+  <text x="390.00006" y="250.00003" text-align="center" xml:space="preserve"><tspan x="390.00006" y="250.00003" text-align="center">G</tspan><tspan x="390.00006" y="280.00003" text-align="center"/></text>
+  <text x="390.00006" y="280" text-align="center" xml:space="preserve"><tspan x="390.00006" y="280" text-align="center">H</tspan><tspan x="390.00006" y="310" text-align="center"/></text>
+  <text x="390.00006" y="309.99997" text-align="center" xml:space="preserve"><tspan x="390.00006" y="309.99997" text-align="center">I</tspan><tspan x="390.00006" y="339.99997" text-align="center"/></text>
+  <text x="390.00006" y="339.99997" text-align="center" xml:space="preserve"><tspan x="390.00006" y="339.99997" text-align="center">J</tspan><tspan x="390.00006" y="370" text-align="center"/></text>
+  <text x="390.00006" y="369.99997" text-align="center" xml:space="preserve"><tspan x="390.00006" y="369.99997" text-align="center">K</tspan><tspan x="390.00006" y="399.99997" text-align="center"/></text>
+  <text x="390.00006" y="399.99988" text-align="center" xml:space="preserve"><tspan x="390.00006" y="399.99988" text-align="center">L</tspan><tspan x="390.00006" y="429.99988" text-align="center"/></text>
+  <text x="390.00006" y="429.99988" text-align="center" xml:space="preserve"><tspan x="390.00006" y="429.99988" text-align="center">M</tspan><tspan x="390.00006" y="459.99988" text-align="center"/></text>
+  <text x="390.00006" y="459.99988" text-align="center" xml:space="preserve"><tspan x="390.00006" y="459.99988" text-align="center">N</tspan><tspan x="390.00006" y="489.99985" text-align="center"/></text>
+  <text x="390.00006" y="489.99985" text-align="center" xml:space="preserve"><tspan x="390.00006" y="489.99985" text-align="center">O</tspan><tspan x="390.00006" y="519.99988" text-align="center"/></text>
+  <text x="390.00006" y="519.99994" text-align="center" xml:space="preserve"><tspan x="390.00006" y="519.99994" text-align="center">P</tspan><tspan x="390.00006" y="549.99994" text-align="center"/></text>
+  <text x="390.00006" y="549.99982" text-align="center" xml:space="preserve"><tspan x="390.00006" y="549.99982" text-align="center">Q</tspan><tspan x="390.00006" y="579.99982" text-align="center"/></text>
+  <text x="390.00006" y="579.99994" text-align="center" xml:space="preserve"><tspan x="390.00006" y="579.99994" text-align="center">R</tspan><tspan x="390.00006" y="609.99994" text-align="center"/></text>
+  <text x="390.00006" y="609.99988" text-align="center" xml:space="preserve"><tspan x="390.00006" y="609.99988" text-align="center">S</tspan><tspan x="390.00006" y="639.99988" text-align="center"/></text>
+  <text x="390.00006" y="639.99982" text-align="center" xml:space="preserve"><tspan x="390.00006" y="639.99982" text-align="center">T</tspan><tspan x="390.00006" y="669.99982" text-align="center"/></text>
+  <text x="390.00006" y="669.99982" text-align="center" xml:space="preserve"><tspan x="390.00006" y="669.99982" text-align="center">U</tspan><tspan x="390.00006" y="699.99982" text-align="center"/></text>
+  <text x="390.00006" y="699.99982" text-align="center" xml:space="preserve"><tspan x="390.00006" y="699.99982" text-align="center">V</tspan><tspan x="390.00006" y="729.99982" text-align="center"/></text>
+  <text x="390.00006" y="729.99982" text-align="center" xml:space="preserve"><tspan x="390.00006" y="729.99982" text-align="center">W</tspan><tspan x="390.00006" y="759.99982" text-align="center"/></text>
+  <text x="390.00006" y="759.99982" text-align="center" xml:space="preserve"><tspan x="390.00006" y="759.99982" text-align="center">X</tspan><tspan x="390.00006" y="789.99982" text-align="center"/></text>
+  <text x="390.00006" y="789.99976" text-align="center" xml:space="preserve"><tspan x="390.00006" y="789.99976" text-align="center">Y</tspan><tspan x="390.00006" y="819.99976" text-align="center"/></text>
+  <text x="390.00006" y="819.99982" text-align="center" xml:space="preserve"><tspan x="390.00006" y="819.99982" text-align="center">Z</tspan><tspan x="390.00006" y="849.99982" text-align="center"/></text>
+ </g>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m380 65h-20"/>
+  <path d="m380 95h-20"/>
+  <path d="m380 125h-20"/>
+  <path d="m380 155h-20"/>
+  <path d="m380 185h-20"/>
+  <path d="m380 215h-20"/>
+  <path d="m380 245h-20"/>
+  <path d="m380 275h-20"/>
+  <path d="m380 305h-20"/>
+  <path d="m380 335h-20"/>
+  <path d="m380 365h-20"/>
+  <path d="m380 395h-20"/>
+  <path d="m380 425h-20"/>
+  <path d="m380 455h-20"/>
+  <path d="m380 485h-20"/>
+  <path d="m380 515h-20"/>
+  <path d="m380 545h-20"/>
+  <path d="m380 575h-20"/>
+  <path d="m380 605h-20"/>
+  <path d="m380 635h-20"/>
+  <path d="m380 665h-20"/>
+  <path d="m380 695h-20"/>
+  <path d="m380 725h-20"/>
+  <path d="m380 755h-20"/>
+  <path d="m380 785h-20"/>
+  <path d="m380 815h-20"/>
+ </g>
+ <rect x="280" y="50" width="80" height="780" fill="#e6e6e6"/>
+ <text x="320.00003" y="25.000002" fill="#000000" font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="320.00003" y="25.000002" text-align="center">Rotor</tspan><tspan x="320.00003" y="55.000004" text-align="center"/></text>
+ <text x="340" y="45.000004" fill="#000000" font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="340" y="45.000004" stroke-width="20" text-align="center">A</tspan><tspan x="340" y="75.000008" text-align="center"/></text>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m340 65.477-40-8e-6"/>
+  <path d="m340 95.477-40-7e-6"/>
+  <path d="m340 125.48-40-1e-5"/>
+  <path d="m340 155.48h-40"/>
+  <path d="m340 185.48-40-1e-5"/>
+  <path d="m340 215.48-40-1e-5"/>
+  <path d="m340 245.48-40-1e-5"/>
+  <path d="m340 275.48-40-1e-5"/>
+  <path d="m340 305.48h-40"/>
+  <path d="m340 335.48-40-1e-5"/>
+  <path d="m340 365.48h-40"/>
+  <path d="m340 395.48h-40"/>
+  <path d="m340 425.48h-40"/>
+  <path d="m340 455.48h-40"/>
+  <path d="m340 485.48h-40"/>
+  <path d="m340 515.48h-40"/>
+  <path d="m340 545.48h-40"/>
+  <path d="m340 575.48h-40"/>
+  <path d="m340 605.48h-40"/>
+  <path d="m340 635.48h-40"/>
+  <path d="m340 665.48h-40"/>
+  <path d="m340 695.48h-40"/>
+  <path d="m340 725.48h-40"/>
+  <path d="m340 755.48h-40"/>
+  <path d="m340 785.48h-40"/>
+  <path d="m340 815.48h-40"/>
+ </g>
+ <rect x="340" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="340" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="340" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="350.00006" y="70.000107" text-align="center" xml:space="preserve"><tspan x="350.00006" y="70.000107" text-align="center">A</tspan><tspan x="350.00006" y="100.00011" text-align="center"/></text>
+  <text x="350.00006" y="100.00008" text-align="center" xml:space="preserve"><tspan x="350.00006" y="100.00008" text-align="center">B</tspan><tspan x="350.00006" y="130.00008" text-align="center"/></text>
+  <text x="350.00006" y="130.00005" text-align="center" xml:space="preserve"><tspan x="350.00006" y="130.00005" text-align="center">C</tspan><tspan x="350.00006" y="160.00005" text-align="center"/></text>
+  <text x="350.00006" y="160.00003" text-align="center" xml:space="preserve"><tspan x="350.00006" y="160.00003" text-align="center">D</tspan><tspan x="350.00006" y="190.00003" text-align="center"/></text>
+  <text x="350.00006" y="190.00005" text-align="center" xml:space="preserve"><tspan x="350.00006" y="190.00005" text-align="center">E</tspan><tspan x="350.00006" y="220.00005" text-align="center"/></text>
+  <text x="350.00006" y="220.00003" text-align="center" xml:space="preserve"><tspan x="350.00006" y="220.00003" text-align="center">F</tspan><tspan x="350.00006" y="250.00003" text-align="center"/></text>
+  <text x="350.00006" y="250.00003" text-align="center" xml:space="preserve"><tspan x="350.00006" y="250.00003" text-align="center">G</tspan><tspan x="350.00006" y="280.00003" text-align="center"/></text>
+  <text x="350.00006" y="280" text-align="center" xml:space="preserve"><tspan x="350.00006" y="280" text-align="center">H</tspan><tspan x="350.00006" y="310" text-align="center"/></text>
+  <text x="350.00006" y="309.99997" text-align="center" xml:space="preserve"><tspan x="350.00006" y="309.99997" text-align="center">I</tspan><tspan x="350.00006" y="339.99997" text-align="center"/></text>
+  <text x="350.00006" y="339.99997" text-align="center" xml:space="preserve"><tspan x="350.00006" y="339.99997" text-align="center">J</tspan><tspan x="350.00006" y="370" text-align="center"/></text>
+  <text x="350.00006" y="369.99997" text-align="center" xml:space="preserve"><tspan x="350.00006" y="369.99997" text-align="center">K</tspan><tspan x="350.00006" y="399.99997" text-align="center"/></text>
+  <text x="350.00006" y="399.99988" text-align="center" xml:space="preserve"><tspan x="350.00006" y="399.99988" text-align="center">L</tspan><tspan x="350.00006" y="429.99988" text-align="center"/></text>
+  <text x="350.00006" y="429.99988" text-align="center" xml:space="preserve"><tspan x="350.00006" y="429.99988" text-align="center">M</tspan><tspan x="350.00006" y="459.99988" text-align="center"/></text>
+  <text x="350.00006" y="459.99988" text-align="center" xml:space="preserve"><tspan x="350.00006" y="459.99988" text-align="center">N</tspan><tspan x="350.00006" y="489.99985" text-align="center"/></text>
+  <text x="350.00006" y="489.99985" text-align="center" xml:space="preserve"><tspan x="350.00006" y="489.99985" text-align="center">O</tspan><tspan x="350.00006" y="519.99988" text-align="center"/></text>
+  <text x="350.00006" y="519.99994" text-align="center" xml:space="preserve"><tspan x="350.00006" y="519.99994" text-align="center">P</tspan><tspan x="350.00006" y="549.99994" text-align="center"/></text>
+  <text x="350.00006" y="549.99982" text-align="center" xml:space="preserve"><tspan x="350.00006" y="549.99982" text-align="center">Q</tspan><tspan x="350.00006" y="579.99982" text-align="center"/></text>
+  <text x="350.00006" y="579.99994" text-align="center" xml:space="preserve"><tspan x="350.00006" y="579.99994" text-align="center">R</tspan><tspan x="350.00006" y="609.99994" text-align="center"/></text>
+  <text x="350.00006" y="609.99988" text-align="center" xml:space="preserve"><tspan x="350.00006" y="609.99988" text-align="center">S</tspan><tspan x="350.00006" y="639.99988" text-align="center"/></text>
+  <text x="350.00006" y="639.99982" text-align="center" xml:space="preserve"><tspan x="350.00006" y="639.99982" text-align="center">T</tspan><tspan x="350.00006" y="669.99982" text-align="center"/></text>
+  <text x="350.00006" y="669.99982" text-align="center" xml:space="preserve"><tspan x="350.00006" y="669.99982" text-align="center">U</tspan><tspan x="350.00006" y="699.99982" text-align="center"/></text>
+  <text x="350.00006" y="699.99982" text-align="center" xml:space="preserve"><tspan x="350.00006" y="699.99982" text-align="center">V</tspan><tspan x="350.00006" y="729.99982" text-align="center"/></text>
+  <text x="350.00006" y="729.99982" text-align="center" xml:space="preserve"><tspan x="350.00006" y="729.99982" text-align="center">W</tspan><tspan x="350.00006" y="759.99982" text-align="center"/></text>
+  <text x="350.00006" y="759.99982" text-align="center" xml:space="preserve"><tspan x="350.00006" y="759.99982" text-align="center">X</tspan><tspan x="350.00006" y="789.99982" text-align="center"/></text>
+  <text x="350.00006" y="789.99976" text-align="center" xml:space="preserve"><tspan x="350.00006" y="789.99976" text-align="center">Y</tspan><tspan x="350.00006" y="819.99976" text-align="center"/></text>
+  <text x="350.00006" y="819.99982" text-align="center" xml:space="preserve"><tspan x="350.00006" y="819.99982" text-align="center">Z</tspan><tspan x="350.00006" y="849.99982" text-align="center"/></text>
+ </g>
+ <rect x="280" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="280" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="280" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="300.00003" y="45.000004" text-align="center" xml:space="preserve"><tspan x="300.00003" y="45.000004" stroke-width="20" text-align="center">I</tspan><tspan x="300.00003" y="75.000008" text-align="center"/></text>
+  <text x="290.00003" y="70.000099" text-align="center" xml:space="preserve"><tspan x="290.00003" y="70.000099" text-align="center">A</tspan><tspan x="290.00003" y="100.00011" text-align="center"/></text>
+  <text x="290.00003" y="100.00008" text-align="center" xml:space="preserve"><tspan x="290.00003" y="100.00008" text-align="center">B</tspan><tspan x="290.00003" y="130.00008" text-align="center"/></text>
+  <text x="290.00003" y="130.00005" text-align="center" xml:space="preserve"><tspan x="290.00003" y="130.00005" text-align="center">C</tspan><tspan x="290.00003" y="160.00005" text-align="center"/></text>
+  <text x="290.00003" y="160.00003" text-align="center" xml:space="preserve"><tspan x="290.00003" y="160.00003" text-align="center">D</tspan><tspan x="290.00003" y="190.00003" text-align="center"/></text>
+  <text x="290.00003" y="190.00005" text-align="center" xml:space="preserve"><tspan x="290.00003" y="190.00005" text-align="center">E</tspan><tspan x="290.00003" y="220.00005" text-align="center"/></text>
+  <text x="290.00003" y="220.00003" text-align="center" xml:space="preserve"><tspan x="290.00003" y="220.00003" text-align="center">F</tspan><tspan x="290.00003" y="250.00003" text-align="center"/></text>
+  <text x="290.00003" y="250.00003" text-align="center" xml:space="preserve"><tspan x="290.00003" y="250.00003" text-align="center">G</tspan><tspan x="290.00003" y="280.00003" text-align="center"/></text>
+  <text x="290.00003" y="280" text-align="center" xml:space="preserve"><tspan x="290.00003" y="280" text-align="center">H</tspan><tspan x="290.00003" y="310" text-align="center"/></text>
+  <text x="290.00003" y="309.99997" text-align="center" xml:space="preserve"><tspan x="290.00003" y="309.99997" text-align="center">I</tspan><tspan x="290.00003" y="339.99997" text-align="center"/></text>
+  <text x="290.00003" y="339.99997" text-align="center" xml:space="preserve"><tspan x="290.00003" y="339.99997" text-align="center">J</tspan><tspan x="290.00003" y="370" text-align="center"/></text>
+  <text x="290.00003" y="369.99997" text-align="center" xml:space="preserve"><tspan x="290.00003" y="369.99997" text-align="center">K</tspan><tspan x="290.00003" y="399.99997" text-align="center"/></text>
+  <text x="290.00003" y="399.99988" text-align="center" xml:space="preserve"><tspan x="290.00003" y="399.99988" text-align="center">L</tspan><tspan x="290.00003" y="429.99988" text-align="center"/></text>
+  <text x="290.00003" y="429.99988" text-align="center" xml:space="preserve"><tspan x="290.00003" y="429.99988" text-align="center">M</tspan><tspan x="290.00003" y="459.99988" text-align="center"/></text>
+  <text x="290.00003" y="459.99988" text-align="center" xml:space="preserve"><tspan x="290.00003" y="459.99988" text-align="center">N</tspan><tspan x="290.00003" y="489.99985" text-align="center"/></text>
+  <text x="290.00003" y="489.99985" text-align="center" xml:space="preserve"><tspan x="290.00003" y="489.99985" text-align="center">O</tspan><tspan x="290.00003" y="519.99988" text-align="center"/></text>
+  <text x="290.00003" y="519.99994" text-align="center" xml:space="preserve"><tspan x="290.00003" y="519.99994" text-align="center">P</tspan><tspan x="290.00003" y="549.99994" text-align="center"/></text>
+  <text x="290.00003" y="549.99982" text-align="center" xml:space="preserve"><tspan x="290.00003" y="549.99982" text-align="center">Q</tspan><tspan x="290.00003" y="579.99982" text-align="center"/></text>
+  <text x="290.00003" y="579.99994" text-align="center" xml:space="preserve"><tspan x="290.00003" y="579.99994" text-align="center">R</tspan><tspan x="290.00003" y="609.99994" text-align="center"/></text>
+  <text x="290.00003" y="609.99988" text-align="center" xml:space="preserve"><tspan x="290.00003" y="609.99988" text-align="center">S</tspan><tspan x="290.00003" y="639.99988" text-align="center"/></text>
+  <text x="290.00003" y="639.99982" text-align="center" xml:space="preserve"><tspan x="290.00003" y="639.99982" text-align="center">T</tspan><tspan x="290.00003" y="669.99982" text-align="center"/></text>
+  <text x="290.00003" y="669.99982" text-align="center" xml:space="preserve"><tspan x="290.00003" y="669.99982" text-align="center">U</tspan><tspan x="290.00003" y="699.99982" text-align="center"/></text>
+  <text x="290.00003" y="699.99982" text-align="center" xml:space="preserve"><tspan x="290.00003" y="699.99982" text-align="center">V</tspan><tspan x="290.00003" y="729.99982" text-align="center"/></text>
+  <text x="290.00003" y="729.99982" text-align="center" xml:space="preserve"><tspan x="290.00003" y="729.99982" text-align="center">W</tspan><tspan x="290.00003" y="759.99982" text-align="center"/></text>
+  <text x="290.00003" y="759.99982" text-align="center" xml:space="preserve"><tspan x="290.00003" y="759.99982" text-align="center">X</tspan><tspan x="290.00003" y="789.99982" text-align="center"/></text>
+  <text x="290.00003" y="789.99976" text-align="center" xml:space="preserve"><tspan x="290.00003" y="789.99976" text-align="center">Y</tspan><tspan x="290.00003" y="819.99976" text-align="center"/></text>
+  <text x="290.00003" y="819.99982" text-align="center" xml:space="preserve"><tspan x="290.00003" y="819.99982" text-align="center">Z</tspan><tspan x="290.00003" y="849.99982" text-align="center"/></text>
+ </g>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m280 65h-20"/>
+  <path d="m280 95h-20"/>
+  <path d="m280 125h-20"/>
+  <path d="m280 155h-20"/>
+  <path d="m280 185h-20"/>
+  <path d="m280 215h-20"/>
+  <path d="m280 245h-20"/>
+  <path d="m280 275h-20"/>
+  <path d="m280 305h-20"/>
+  <path d="m280 335h-20"/>
+  <path d="m280 365h-20"/>
+  <path d="m280 395h-20"/>
+  <path d="m280 425h-20"/>
+  <path d="m280 455h-20"/>
+  <path d="m280 485h-20"/>
+  <path d="m280 515h-20"/>
+  <path d="m280 545h-20"/>
+  <path d="m280 575h-20"/>
+  <path d="m280 605h-20"/>
+  <path d="m280 635h-20"/>
+  <path d="m280 665h-20"/>
+  <path d="m280 695h-20"/>
+  <path d="m280 725h-20"/>
+  <path d="m280 755h-20"/>
+  <path d="m280 785h-20"/>
+  <path d="m280 815h-20"/>
+ </g>
+ <rect x="180" y="50" width="80" height="780" fill="#e6e6e6"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="200.00002" y="45.000004" text-align="center" xml:space="preserve"><tspan x="200.00002" y="45.000004" text-align="center">I</tspan><tspan x="200.00002" y="75.000008" text-align="center"/></text>
+  <text x="220.00002" y="25.000002" text-align="center" xml:space="preserve"><tspan x="220.00002" y="25.000002" text-align="center">Rotor</tspan><tspan x="220.00002" y="55.000004" text-align="center"/></text>
+  <text x="240" y="45.000004" text-align="center" xml:space="preserve"><tspan x="240" y="45.000004" text-align="center">A</tspan><tspan x="240" y="75.000008" text-align="center"/></text>
+ </g>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m240 65.477-40-8e-6"/>
+  <path d="m240 95.477-40-7e-6"/>
+  <path d="m240 125.48-40-1e-5"/>
+  <path d="m240 155.48h-40"/>
+  <path d="m240 185.48-40-1e-5"/>
+  <path d="m240 215.48-40-1e-5"/>
+  <path d="m240 245.48-40-1e-5"/>
+  <path d="m240 275.48-40-1e-5"/>
+  <path d="m240 305.48h-40"/>
+  <path d="m240 335.48-40-1e-5"/>
+  <path d="m240 365.48h-40"/>
+  <path d="m240 395.48h-40"/>
+  <path d="m240 425.48h-40"/>
+  <path d="m240 455.48h-40"/>
+  <path d="m240 485.48h-40"/>
+  <path d="m240 515.48h-40"/>
+  <path d="m240 545.48h-40"/>
+  <path d="m240 575.48h-40"/>
+  <path d="m240 605.48h-40"/>
+  <path d="m240 635.48h-40"/>
+  <path d="m240 665.48h-40"/>
+  <path d="m240 695.48h-40"/>
+  <path d="m240 725.48h-40"/>
+  <path d="m240 755.48h-40"/>
+  <path d="m240 785.48h-40"/>
+  <path d="m240 815.48h-40"/>
+ </g>
+ <rect x="240" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="240" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="240" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="250.00006" y="70.000099" text-align="center" xml:space="preserve"><tspan x="250.00006" y="70.000099" text-align="center">A</tspan><tspan x="250.00006" y="100.00011" text-align="center"/></text>
+  <text x="250.00006" y="100.00008" text-align="center" xml:space="preserve"><tspan x="250.00006" y="100.00008" text-align="center">B</tspan><tspan x="250.00006" y="130.00008" text-align="center"/></text>
+  <text x="250.00006" y="130.00005" text-align="center" xml:space="preserve"><tspan x="250.00006" y="130.00005" text-align="center">C</tspan><tspan x="250.00006" y="160.00005" text-align="center"/></text>
+  <text x="250.00006" y="160.00003" text-align="center" xml:space="preserve"><tspan x="250.00006" y="160.00003" text-align="center">D</tspan><tspan x="250.00006" y="190.00003" text-align="center"/></text>
+  <text x="250.00006" y="190.00005" text-align="center" xml:space="preserve"><tspan x="250.00006" y="190.00005" text-align="center">E</tspan><tspan x="250.00006" y="220.00005" text-align="center"/></text>
+  <text x="250.00006" y="220.00003" text-align="center" xml:space="preserve"><tspan x="250.00006" y="220.00003" text-align="center">F</tspan><tspan x="250.00006" y="250.00003" text-align="center"/></text>
+  <text x="250.00006" y="250.00003" text-align="center" xml:space="preserve"><tspan x="250.00006" y="250.00003" text-align="center">G</tspan><tspan x="250.00006" y="280.00003" text-align="center"/></text>
+  <text x="250.00006" y="280" text-align="center" xml:space="preserve"><tspan x="250.00006" y="280" text-align="center">H</tspan><tspan x="250.00006" y="310" text-align="center"/></text>
+  <text x="250.00006" y="309.99997" text-align="center" xml:space="preserve"><tspan x="250.00006" y="309.99997" text-align="center">I</tspan><tspan x="250.00006" y="339.99997" text-align="center"/></text>
+  <text x="250.00006" y="339.99997" text-align="center" xml:space="preserve"><tspan x="250.00006" y="339.99997" text-align="center">J</tspan><tspan x="250.00006" y="370" text-align="center"/></text>
+  <text x="250.00006" y="369.99997" text-align="center" xml:space="preserve"><tspan x="250.00006" y="369.99997" text-align="center">K</tspan><tspan x="250.00006" y="399.99997" text-align="center"/></text>
+  <text x="250.00006" y="399.99988" text-align="center" xml:space="preserve"><tspan x="250.00006" y="399.99988" text-align="center">L</tspan><tspan x="250.00006" y="429.99988" text-align="center"/></text>
+  <text x="250.00006" y="429.99988" text-align="center" xml:space="preserve"><tspan x="250.00006" y="429.99988" text-align="center">M</tspan><tspan x="250.00006" y="459.99988" text-align="center"/></text>
+  <text x="250.00006" y="459.99988" text-align="center" xml:space="preserve"><tspan x="250.00006" y="459.99988" text-align="center">N</tspan><tspan x="250.00006" y="489.99985" text-align="center"/></text>
+  <text x="250.00006" y="489.99985" text-align="center" xml:space="preserve"><tspan x="250.00006" y="489.99985" text-align="center">O</tspan><tspan x="250.00006" y="519.99988" text-align="center"/></text>
+  <text x="250.00006" y="519.99994" text-align="center" xml:space="preserve"><tspan x="250.00006" y="519.99994" text-align="center">P</tspan><tspan x="250.00006" y="549.99994" text-align="center"/></text>
+  <text x="250.00006" y="549.99982" text-align="center" xml:space="preserve"><tspan x="250.00006" y="549.99982" text-align="center">Q</tspan><tspan x="250.00006" y="579.99982" text-align="center"/></text>
+  <text x="250.00006" y="579.99994" text-align="center" xml:space="preserve"><tspan x="250.00006" y="579.99994" text-align="center">R</tspan><tspan x="250.00006" y="609.99994" text-align="center"/></text>
+  <text x="250.00006" y="609.99988" text-align="center" xml:space="preserve"><tspan x="250.00006" y="609.99988" text-align="center">S</tspan><tspan x="250.00006" y="639.99988" text-align="center"/></text>
+  <text x="250.00006" y="639.99982" text-align="center" xml:space="preserve"><tspan x="250.00006" y="639.99982" text-align="center">T</tspan><tspan x="250.00006" y="669.99982" text-align="center"/></text>
+  <text x="250.00006" y="669.99982" text-align="center" xml:space="preserve"><tspan x="250.00006" y="669.99982" text-align="center">U</tspan><tspan x="250.00006" y="699.99982" text-align="center"/></text>
+  <text x="250.00006" y="699.99982" text-align="center" xml:space="preserve"><tspan x="250.00006" y="699.99982" text-align="center">V</tspan><tspan x="250.00006" y="729.99982" text-align="center"/></text>
+  <text x="250.00006" y="729.99982" text-align="center" xml:space="preserve"><tspan x="250.00006" y="729.99982" text-align="center">W</tspan><tspan x="250.00006" y="759.99982" text-align="center"/></text>
+  <text x="250.00006" y="759.99982" text-align="center" xml:space="preserve"><tspan x="250.00006" y="759.99982" text-align="center">X</tspan><tspan x="250.00006" y="789.99982" text-align="center"/></text>
+  <text x="250.00006" y="789.99976" text-align="center" xml:space="preserve"><tspan x="250.00006" y="789.99976" text-align="center">Y</tspan><tspan x="250.00006" y="819.99976" text-align="center"/></text>
+  <text x="250.00006" y="819.99982" text-align="center" xml:space="preserve"><tspan x="250.00006" y="819.99982" text-align="center">Z</tspan><tspan x="250.00006" y="849.99982" text-align="center"/></text>
+ </g>
+ <rect x="180" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="180" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="180" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="190.00006" y="70.000099" text-align="center" xml:space="preserve"><tspan x="190.00006" y="70.000099" text-align="center">A</tspan><tspan x="190.00006" y="100.00011" text-align="center"/></text>
+  <text x="190.00006" y="100.00007" text-align="center" xml:space="preserve"><tspan x="190.00006" y="100.00007" text-align="center">B</tspan><tspan x="190.00006" y="130.00006" text-align="center"/></text>
+  <text x="190.00006" y="130.00003" text-align="center" xml:space="preserve"><tspan x="190.00006" y="130.00003" text-align="center">C</tspan><tspan x="190.00006" y="160.00005" text-align="center"/></text>
+  <text x="190.00006" y="160.00002" text-align="center" xml:space="preserve"><tspan x="190.00006" y="160.00002" text-align="center">D</tspan><tspan x="190.00006" y="190.00002" text-align="center"/></text>
+  <text x="190.00006" y="190.00005" text-align="center" xml:space="preserve"><tspan x="190.00006" y="190.00005" text-align="center">E</tspan><tspan x="190.00006" y="220.00005" text-align="center"/></text>
+  <text x="190.00006" y="220.00003" text-align="center" xml:space="preserve"><tspan x="190.00006" y="220.00003" text-align="center">F</tspan><tspan x="190.00006" y="250.00003" text-align="center"/></text>
+  <text x="190.00006" y="250.00003" text-align="center" xml:space="preserve"><tspan x="190.00006" y="250.00003" text-align="center">G</tspan><tspan x="190.00006" y="280.00003" text-align="center"/></text>
+  <text x="190.00006" y="280" text-align="center" xml:space="preserve"><tspan x="190.00006" y="280" text-align="center">H</tspan><tspan x="190.00006" y="310" text-align="center"/></text>
+  <text x="190.00006" y="309.99997" text-align="center" xml:space="preserve"><tspan x="190.00006" y="309.99997" text-align="center">I</tspan><tspan x="190.00006" y="339.99997" text-align="center"/></text>
+  <text x="190.00006" y="339.99997" text-align="center" xml:space="preserve"><tspan x="190.00006" y="339.99997" text-align="center">J</tspan><tspan x="190.00006" y="370" text-align="center"/></text>
+  <text x="190.00006" y="369.99997" text-align="center" xml:space="preserve"><tspan x="190.00006" y="369.99997" text-align="center">K</tspan><tspan x="190.00006" y="399.99997" text-align="center"/></text>
+  <text x="190.00006" y="399.99988" text-align="center" xml:space="preserve"><tspan x="190.00006" y="399.99988" text-align="center">L</tspan><tspan x="190.00006" y="429.99988" text-align="center"/></text>
+  <text x="190.00006" y="429.99988" text-align="center" xml:space="preserve"><tspan x="190.00006" y="429.99988" text-align="center">M</tspan><tspan x="190.00006" y="459.99988" text-align="center"/></text>
+  <text x="190.00006" y="459.99988" text-align="center" xml:space="preserve"><tspan x="190.00006" y="459.99988" text-align="center">N</tspan><tspan x="190.00006" y="489.99985" text-align="center"/></text>
+  <text x="190.00006" y="489.99985" text-align="center" xml:space="preserve"><tspan x="190.00006" y="489.99985" text-align="center">O</tspan><tspan x="190.00006" y="519.99988" text-align="center"/></text>
+  <text x="190.00006" y="519.99994" text-align="center" xml:space="preserve"><tspan x="190.00006" y="519.99994" text-align="center">P</tspan><tspan x="190.00006" y="549.99994" text-align="center"/></text>
+  <text x="190.00006" y="549.99982" text-align="center" xml:space="preserve"><tspan x="190.00006" y="549.99982" text-align="center">Q</tspan><tspan x="190.00006" y="579.99982" text-align="center"/></text>
+  <text x="190.00006" y="579.99994" text-align="center" xml:space="preserve"><tspan x="190.00006" y="579.99994" text-align="center">R</tspan><tspan x="190.00006" y="609.99994" text-align="center"/></text>
+  <text x="190.00006" y="609.99988" text-align="center" xml:space="preserve"><tspan x="190.00006" y="609.99988" text-align="center">S</tspan><tspan x="190.00006" y="639.99988" text-align="center"/></text>
+  <text x="190.00006" y="639.99982" text-align="center" xml:space="preserve"><tspan x="190.00006" y="639.99982" text-align="center">T</tspan><tspan x="190.00006" y="669.99982" text-align="center"/></text>
+  <text x="190.00006" y="669.99982" text-align="center" xml:space="preserve"><tspan x="190.00006" y="669.99982" text-align="center">U</tspan><tspan x="190.00006" y="699.99982" text-align="center"/></text>
+  <text x="190.00006" y="699.99982" text-align="center" xml:space="preserve"><tspan x="190.00006" y="699.99982" text-align="center">V</tspan><tspan x="190.00006" y="729.99982" text-align="center"/></text>
+  <text x="190.00006" y="729.99982" text-align="center" xml:space="preserve"><tspan x="190.00006" y="729.99982" text-align="center">W</tspan><tspan x="190.00006" y="759.99982" text-align="center"/></text>
+  <text x="190.00006" y="759.99982" text-align="center" xml:space="preserve"><tspan x="190.00006" y="759.99982" text-align="center">X</tspan><tspan x="190.00006" y="789.99982" text-align="center"/></text>
+  <text x="190.00006" y="789.99976" text-align="center" xml:space="preserve"><tspan x="190.00006" y="789.99976" text-align="center">Y</tspan><tspan x="190.00006" y="819.99976" text-align="center"/></text>
+  <text x="190.00006" y="819.99982" text-align="center" xml:space="preserve"><tspan x="190.00006" y="819.99982" text-align="center">Z</tspan><tspan x="190.00006" y="849.99982" text-align="center"/></text>
+ </g>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m180 65h-20"/>
+  <path d="m180 95h-20"/>
+  <path d="m180 125h-20"/>
+  <path d="m180 155h-20"/>
+  <path d="m180 185h-20"/>
+  <path d="m180 215h-20"/>
+  <path d="m180 245h-20"/>
+  <path d="m180 275h-20"/>
+  <path d="m180 305h-20"/>
+  <path d="m180 335h-20"/>
+  <path d="m180 365h-20"/>
+  <path d="m180 395h-20"/>
+  <path d="m180 425h-20"/>
+  <path d="m180 455h-20"/>
+  <path d="m180 485h-20"/>
+  <path d="m180 515h-20"/>
+  <path d="m180 545h-20"/>
+  <path d="m180 575h-20"/>
+  <path d="m180 605h-20"/>
+  <path d="m180 635h-20"/>
+  <path d="m180 665h-20"/>
+  <path d="m180 695h-20"/>
+  <path d="m180 725h-20"/>
+  <path d="m180 755h-20"/>
+  <path d="m180 785h-20"/>
+  <path d="m180 815h-20"/>
+ </g>
+ <rect y="50" width="160" height="780" fill="#e6e6e6"/>
+ <text x="80.000008" y="45.000004" fill="#000000" font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="80.000008" y="45.000004" text-align="center">C</tspan><tspan x="80.000008" y="75.000008" text-align="center"/></text>
+ <text x="80.000008" y="25.000002" fill="#000000" font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="80.000008" y="25.000002" fill="#000000" stroke-width="20" text-align="center" text-anchor="middle">Reflector</tspan></text>
+ <g fill="none" stroke="#999" stroke-width="4">
+  <path d="m140 425h-10v30h10"/>
+  <path d="m140 395h-20v90h20"/>
+  <path d="m140 365h-30v150h30"/>
+  <path d="m140 335-40-2e-5v210l40 3e-5"/>
+  <path d="m140 305-50 2e-5v270h50"/>
+  <path d="m140 275-60-6e-5v330l60 1.1e-4"/>
+  <path d="m140 245-70 8e-5v390h70"/>
+  <path d="m140 215-80-9e-5v450l80 1.8e-4"/>
+  <path d="m140 185-90 1.2e-4v510l90 4e-5"/>
+  <path d="m140 155-100-9e-5v570l100 1.9e-4"/>
+  <path d="m140 125-110 1.1e-4v630h110"/>
+  <path d="m140 95h-120v690l120 8e-5"/>
+  <path d="m140 65-130 6.4e-5v750h130"/>
+ </g>
+ <rect x="140" y="50" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="80" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="110" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="140" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="170" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="200" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="230" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="260" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="290" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="320" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="350" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="380" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="410" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="440" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="470" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="500" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="530" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="560" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="590" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="620" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="650" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="680" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="710" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="740" width="20" height="30" fill="#ccc"/>
+ <rect x="140" y="770" width="20" height="30" fill="#b3b3b3"/>
+ <rect x="140" y="800" width="20" height="30" fill="#ccc"/>
+ <g font-family="monospace" font-size="24px" font-weight="bold" stroke-width="20" text-anchor="middle">
+  <text x="149.99998" y="70.000008" text-align="center" xml:space="preserve"><tspan x="149.99998" y="70.000008" text-align="center">A</tspan><tspan x="149.99998" y="100.00001" text-align="center"/></text>
+  <text x="149.99998" y="99.999985" text-align="center" xml:space="preserve"><tspan x="149.99998" y="99.999985" text-align="center">B</tspan><tspan x="149.99998" y="129.99998" text-align="center"/></text>
+  <text x="149.99998" y="129.99995" text-align="center" xml:space="preserve"><tspan x="149.99998" y="129.99995" text-align="center">C</tspan><tspan x="149.99998" y="159.99995" text-align="center"/></text>
+  <text x="149.99998" y="159.99992" text-align="center" xml:space="preserve"><tspan x="149.99998" y="159.99992" text-align="center">D</tspan><tspan x="149.99998" y="189.99992" text-align="center"/></text>
+  <text x="149.99998" y="189.99995" text-align="center" xml:space="preserve"><tspan x="149.99998" y="189.99995" text-align="center">E</tspan><tspan x="149.99998" y="219.99995" text-align="center"/></text>
+  <text x="149.99998" y="219.99994" text-align="center" xml:space="preserve"><tspan x="149.99998" y="219.99994" text-align="center">F</tspan><tspan x="149.99998" y="249.99994" text-align="center"/></text>
+  <text x="149.99998" y="249.99994" text-align="center" xml:space="preserve"><tspan x="149.99998" y="249.99994" text-align="center">G</tspan><tspan x="149.99998" y="279.99994" text-align="center"/></text>
+  <text x="149.99998" y="279.99991" text-align="center" xml:space="preserve"><tspan x="149.99998" y="279.99991" text-align="center">H</tspan><tspan x="149.99998" y="309.99991" text-align="center"/></text>
+  <text x="149.99998" y="309.99991" text-align="center" xml:space="preserve"><tspan x="149.99998" y="309.99991" text-align="center">I</tspan><tspan x="149.99998" y="339.99991" text-align="center"/></text>
+  <text x="149.99998" y="339.99991" text-align="center" xml:space="preserve"><tspan x="149.99998" y="339.99991" text-align="center">J</tspan><tspan x="149.99998" y="369.99991" text-align="center"/></text>
+  <text x="149.99998" y="369.99991" text-align="center" xml:space="preserve"><tspan x="149.99998" y="369.99991" text-align="center">K</tspan><tspan x="149.99998" y="399.99991" text-align="center"/></text>
+  <text x="149.99998" y="399.99985" text-align="center" xml:space="preserve"><tspan x="149.99998" y="399.99985" text-align="center">L</tspan><tspan x="149.99998" y="429.99985" text-align="center"/></text>
+  <text x="149.99998" y="429.99985" text-align="center" xml:space="preserve"><tspan x="149.99998" y="429.99985" text-align="center">M</tspan><tspan x="149.99998" y="459.99985" text-align="center"/></text>
+  <text x="149.99998" y="459.99979" text-align="center" xml:space="preserve"><tspan x="149.99998" y="459.99979" text-align="center">N</tspan><tspan x="149.99998" y="489.99979" text-align="center"/></text>
+  <text x="149.99998" y="489.99979" text-align="center" xml:space="preserve"><tspan x="149.99998" y="489.99979" text-align="center">O</tspan><tspan x="149.99998" y="519.99982" text-align="center"/></text>
+  <text x="149.99998" y="519.99988" text-align="center" xml:space="preserve"><tspan x="149.99998" y="519.99988" text-align="center">P</tspan><tspan x="149.99998" y="549.99988" text-align="center"/></text>
+  <text x="149.99998" y="549.99969" text-align="center" xml:space="preserve"><tspan x="149.99998" y="549.99969" text-align="center">Q</tspan><tspan x="149.99998" y="579.99969" text-align="center"/></text>
+  <text x="149.99998" y="579.99982" text-align="center" xml:space="preserve"><tspan x="149.99998" y="579.99982" text-align="center">R</tspan><tspan x="149.99998" y="609.99982" text-align="center"/></text>
+  <text x="149.99998" y="609.99976" text-align="center" xml:space="preserve"><tspan x="149.99998" y="609.99976" text-align="center">S</tspan><tspan x="149.99998" y="639.99976" text-align="center"/></text>
+  <text x="149.99998" y="639.99969" text-align="center" xml:space="preserve"><tspan x="149.99998" y="639.99969" text-align="center">T</tspan><tspan x="149.99998" y="669.99969" text-align="center"/></text>
+  <text x="149.99998" y="669.99969" text-align="center" xml:space="preserve"><tspan x="149.99998" y="669.99969" text-align="center">U</tspan><tspan x="149.99998" y="699.99969" text-align="center"/></text>
+  <text x="149.99998" y="699.99969" text-align="center" xml:space="preserve"><tspan x="149.99998" y="699.99969" text-align="center">V</tspan><tspan x="149.99998" y="729.99969" text-align="center"/></text>
+  <text x="149.99998" y="729.99969" text-align="center" xml:space="preserve"><tspan x="149.99998" y="729.99969" text-align="center">W</tspan><tspan x="149.99998" y="759.99969" text-align="center"/></text>
+  <text x="149.99998" y="759.99969" text-align="center" xml:space="preserve"><tspan x="149.99998" y="759.99969" text-align="center">X</tspan><tspan x="149.99998" y="789.99969" text-align="center"/></text>
+  <text x="149.99998" y="789.99963" text-align="center" xml:space="preserve"><tspan x="149.99998" y="789.99963" text-align="center">Y</tspan><tspan x="149.99998" y="819.99963" text-align="center"/></text>
+  <text x="149.99998" y="819.99969" text-align="center" xml:space="preserve"><tspan x="149.99998" y="819.99969" text-align="center">Z</tspan><tspan x="149.99998" y="849.99969" text-align="center"/></text>
+ </g>
+</svg>

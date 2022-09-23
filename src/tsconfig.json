@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"outFile": "../enigma.d.ts",
+		"module": "AMD",
+		"target": "ES2022",
+		"declaration": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": false,
+		"keyofStringsOnly": true,
+		"esModuleInterop": true,
+		"sourceMap": false
+	},
+	"include": [
+		"./*.ts"
+	]
+}
