@@ -30,6 +30,7 @@ interface LineData {
 	customElements.define(
 		tagname,
 		class extends HTMLElement {
+			protected counter: HTMLInputElement;
 			protected enigma: EnigmaSimulator;
 			protected svg: SVGSVGElement;
 			protected reflector: { group: SVGGElement; type: SVGTextElement; in: ConverterData; line: LineData };
@@ -58,6 +59,11 @@ interface LineData {
 			constructor() {
 				super();
 
+				this.counter = document.createElement('input');
+				this.counter.id = 'counter';
+				this.counter.type = 'number';
+				this.counter.readOnly = true;
+
 				this.enigma = Enigma.Create({
 					'model': 'EnigmaI',
 					'reflector': 'C',
@@ -68,6 +74,8 @@ interface LineData {
 				});
 
 				const svg = this.createSVG();
+
+				this.counter.value = '0';
 				this.rotate();
 				this.update();
 
@@ -79,6 +87,7 @@ interface LineData {
 					':host > div { display: grid; grid-template-rows: 1fr 1.5rem 1.5rem; position: relative; }',
 					':host > div > button { top: 0; right: 0; width: 1rem; height: 1rem; position: absolute; padding: 0; font-size: 1rem; line-height: 1rem; }',
 					':host > div > button::before { content: "⚙"; }',
+					'#counter { position: absolute; bottom: 4rem; left: 0; font-size: 1.5rem; background: transparent; border: none; }',
 					'svg {display: block; margin: auto; }',
 					'input { font-family: monospace; box-sizing: border-box; }',
 					'button { cursor: pointer; box-sizing: border-box; }',
@@ -148,6 +157,7 @@ interface LineData {
 				contents.appendChild(this.inputArea);
 				contents.appendChild(this.outputArea);
 				contents.appendChild(button);
+				contents.appendChild(this.counter);
 				contents.appendChild(dialog);
 
 				shadow.appendChild(style);
@@ -274,6 +284,7 @@ interface LineData {
 					config.setReflector(<REFLECTOR_TYPE> this.config.reflector.options[this.config.reflector.selectedIndex].value);
 
 					this.enigma.updateConfig();
+					this.counter.value = '0';
 					this.rotate();
 					this.update();
 					this.hover();
@@ -669,6 +680,7 @@ interface LineData {
 
 			protected rotate() {
 				this.resetLine();
+				this.counter.value = `${parseInt(this.counter.value) + 1}`;
 				this.enigma.rotate();
 			}
 
@@ -699,7 +711,7 @@ interface LineData {
 					rotor.ring.textContent = `Ring:${this.enigma.getConfig().getRing(i)}`;
 					for (let n = 0; n < KEYS.length; ++n) {
 						const key = KEYS[n];
-						const cls = KEYS.indexOf(<ENIGMA_KEY>data[n].out) % 2 ? 'odd' : 'even';
+						const cls = KEYS.indexOf(<ENIGMA_KEY> data[n].out) % 2 ? 'odd' : 'even';
 						rotor.in[key].back.dataset.key = data[n].in;
 						rotor.out[key].back.dataset.key = data[n].out;
 						rotor.in[key].back.classList.remove('odd', 'even');

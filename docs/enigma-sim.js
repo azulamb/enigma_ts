@@ -13,6 +13,7 @@
     const KEYS = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
     const ROMANUM = [...'ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ'];
     customElements.define(tagname, class extends HTMLElement {
+        counter;
         enigma;
         svg;
         reflector;
@@ -24,6 +25,10 @@
         config;
         constructor() {
             super();
+            this.counter = document.createElement('input');
+            this.counter.id = 'counter';
+            this.counter.type = 'number';
+            this.counter.readOnly = true;
             this.enigma = Enigma.Create({
                 'model': 'EnigmaI',
                 'reflector': 'C',
@@ -33,6 +38,7 @@
                 'position': ['E', 'H', 'S'],
             });
             const svg = this.createSVG();
+            this.counter.value = '0';
             this.rotate();
             this.update();
             const shadow = this.attachShadow({ mode: 'open' });
@@ -42,6 +48,7 @@
                 ':host > div { display: grid; grid-template-rows: 1fr 1.5rem 1.5rem; position: relative; }',
                 ':host > div > button { top: 0; right: 0; width: 1rem; height: 1rem; position: absolute; padding: 0; font-size: 1rem; line-height: 1rem; }',
                 ':host > div > button::before { content: "⚙"; }',
+                '#counter { position: absolute; bottom: 4rem; left: 0; font-size: 1.5rem; background: transparent; border: none; }',
                 'svg {display: block; margin: auto; }',
                 'input { font-family: monospace; box-sizing: border-box; }',
                 'button { cursor: pointer; box-sizing: border-box; }',
@@ -102,6 +109,7 @@
             contents.appendChild(this.inputArea);
             contents.appendChild(this.outputArea);
             contents.appendChild(button);
+            contents.appendChild(this.counter);
             contents.appendChild(dialog);
             shadow.appendChild(style);
             shadow.appendChild(contents);
@@ -210,6 +218,7 @@
                 }));
                 config.setReflector(this.config.reflector.options[this.config.reflector.selectedIndex].value);
                 this.enigma.updateConfig();
+                this.counter.value = '0';
                 this.rotate();
                 this.update();
                 this.hover();
@@ -550,6 +559,7 @@
         }
         rotate() {
             this.resetLine();
+            this.counter.value = `${parseInt(this.counter.value) + 1}`;
             this.enigma.rotate();
         }
         update() {
