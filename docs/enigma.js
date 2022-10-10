@@ -20,12 +20,20 @@ class EnigmaSimulator {
     }
     setConfig(config) {
         this.config.set(config);
+        this.updateConfig();
+        return this;
+    }
+    updateConfig() {
         this.plugboard.reset();
         this.config.getPlugboard().forEach((pair)=>{
             this.plugboard.set(pair.a, pair.b);
         });
-        this.setRotors(this.config.getRotors().map((config)=>{
-            return this.generator.Rotor(config.model, config.rotor);
+        this.setRotors(this.config.getRotors().map((config, index)=>{
+            const rotor = this.generator.Rotor(config.model, config.rotor);
+            const reset = this.config.getPosition(index);
+            const ring = this.config.getRing(index);
+            rotor.reset(reset, ring);
+            return rotor;
         }));
         this.setReflector(this.generator.Reflector(this.config.getModel(), this.config.getReflector()));
         return this;
@@ -73,13 +81,15 @@ class EnigmaSimulator {
         const result = {
             input: key || '',
             output: '',
-            position: []
+            position: [],
+            position_str: []
         };
         let position = key ? this.etw.indexOf(this.plugboard.convert(key)) : -1;
         if (position < 0) {
             return result;
         }
         result.position.push(position);
+        result.position_str.push(key);
         for(let i = this.rotors.length - 1; 0 <= i; --i){
             position = this.rotors[i].inout(position);
             if (position < 0) {
@@ -92,6 +102,7 @@ class EnigmaSimulator {
                 return result;
             }
             result.position.push(position);
+            result.position_str.push(r.out);
             result.output = r.out;
         }
         position = this.reflector.inout(position);
@@ -105,6 +116,7 @@ class EnigmaSimulator {
             return result;
         }
         result.position.push(position);
+        result.position_str.push(r1.out);
         result.output = r1.out;
         for(let i1 = 0; i1 < this.rotors.length; ++i1){
             position = this.rotors[i1].outin(position);
@@ -118,6 +130,7 @@ class EnigmaSimulator {
                 return result;
             }
             result.position.push(position);
+            result.position_str.push(r2.in);
             result.output = r2.in;
         }
         result.output = this.plugboard.convert(this.etw[position]);
@@ -138,9 +151,9 @@ class EnigmaConfig {
         model: 'EnigmaI',
         reflector: 'C',
         rotors: [
-            'V',
-            'I',
-            'III'
+            5,
+            1,
+            3
         ],
         rings: [
             'S',
@@ -287,33 +300,38 @@ class EnigmaGenerate {
         this.reflector = reflector;
     }
     rotorEnigmaI(type) {
-        const rotor = {
-            'I': {
+        const rotor = [
+            {
+                table: 'ABCDEFGHIJKLMNOPQRSTUVQXYZ',
+                notch: 'A',
+                turnover: 'Z'
+            },
+            {
                 table: 'EKMFLGDQVZNTOWYHXUSPAIBRCJ',
                 notch: 'Y',
                 turnover: 'Q'
             },
-            'II': {
+            {
                 table: 'AJDKSIRUXBLHWTMCQGZNPYFVOE',
                 notch: 'M',
                 turnover: 'E'
             },
-            'III': {
+            {
                 table: 'BDFHJLCPRTXVZNYEIWGAKMUSQO',
                 notch: 'D',
                 turnover: 'V'
             },
-            'IV': {
+            {
                 table: 'ESOVPZJAYQUIRHXLNFTGKDCMWB',
                 notch: 'R',
                 turnover: 'J'
             },
-            'V': {
+            {
                 table: 'VZBRGITYUPSDNHLXAWMJQOFECK',
                 notch: 'H',
                 turnover: 'Z'
-            }
-        };
+            }, 
+        ];
         return new this.rotor(rotor[type].table).setType(type).setTurnover(rotor[type].turnover);
     }
     Rotor(model, type) {
@@ -333,12 +351,14 @@ class EnigmaGenerate {
             'B': 'YRUHQSLDPXNGOKMIEBFZCWVJAT',
             'C': 'FVPJIAOYEDRZXWGCTKUQSBNMHL'
         };
-        return new this.reflector(rotor[type]).setType(type);
+        return new this.reflector(rotor[type]).setType([
+            ...'ABC'
+        ].indexOf(type) + 1);
     }
 }
 class EnigmaConverter {
     name = 'Converter';
-    type = '';
+    type = 0;
     offset = 0;
     get fullName() {
         return `${this.name}(${this.type})[${this.offset}]`;
@@ -481,11 +501,12 @@ const Enigma = (()=>{
     return {
         Create: (config)=>{
             const conf = new EnigmaConfig();
-            if (config) {
-                conf.set(config);
-            }
             const plugboard = new EnigmaPlugboard();
-            return new EnigmaSimulator(conf, generator).setPlugboard(plugboard);
+            const enigma = new EnigmaSimulator(conf, generator).setPlugboard(plugboard);
+            if (config) {
+                enigma.setConfig(config);
+            }
+            return enigma;
         },
         Generate: generator,
         Simulator: EnigmaSimulator,

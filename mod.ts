@@ -12,13 +12,14 @@ export const Enigma: EnigmaMod = (() => {
 		Create: (config?: ENIGMA_CONFIG) => {
 	
 			const conf = new EnigmaConfig();
-			if (config) {
-				conf.set(config);
-			}
-	
 			const plugboard = new EnigmaPlugboard();
-	
-			return new EnigmaSimulator(conf, generator).setPlugboard(plugboard);
+			const enigma = new EnigmaSimulator(conf, generator).setPlugboard(plugboard)
+
+			if (config) {
+				enigma.setConfig(config);
+			}
+
+			return enigma;
 		},
 	
 		Generate: generator,

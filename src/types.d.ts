@@ -8,7 +8,7 @@ type ROTOR_ALL = ROTOR_ENIGMA_I;
 interface ENIGMA_CONFIG {
 	model?: ENIGMA_MODEL;
 	reflector?: REFLECTOR_TYPE;
-	rotors?: ROTOR_ALL[];
+	rotors?: number[];
 	rings?: string[];
 	plugboard?: string[];
 	position?: string[];
@@ -17,7 +17,7 @@ interface ENIGMA_CONFIG {
 interface ENIGMA_ENABLE_CONFIG {
 	model: ENIGMA_MODEL;
 	reflector: REFLECTOR_TYPE;
-	rotors: ROTOR_ALL[];
+	rotors: number[];
 	rings: string[];
 	plugboard: string[];
 	position: string[];
@@ -35,16 +35,16 @@ interface EnigmaConfig {
 
 	getReflector(): REFLECTOR_TYPE;
 
-	setRotors(rotors: ROTOR_ALL[]): this;
+	setRotors(rotors: number[]): this;
 
 	getRotors(): {
 		model: ENIGMA_MODEL;
-		rotor: ROTOR_ALL;
+		rotor: number;
 	}[];
 
 	getRotor(position: number): {
 		model: ENIGMA_MODEL;
-		rotor: ROTOR_ALL;
+		rotor: number;
 	};
 
 	setRings(rings: string[]): this;
@@ -77,9 +77,9 @@ interface EnigmaPlugboard {
 interface EnigmaConverter {
 	readonly fullName: string;
 
-	setType(type: string): this;
+	setType(type: number): this;
 
-	getKey(position: number): { in: string; out: string };
+	getKey(position: number): { in: ENIGMA_KEY; out: ENIGMA_KEY };
 
 	inout(position: number): number;
 
@@ -104,6 +104,7 @@ interface EnigmaRotor extends EnigmaConverter {
 interface EnigmaSimulator {
 	getConfig(): EnigmaConfig;
 	setConfig(config: ENIGMA_CONFIG): this;
+	updateConfig(): this;
 
 	getETW(): string[];
 	setETW(entryWheels: string | string[]): this;
@@ -125,6 +126,7 @@ interface EnigmaSimulator {
 		input: string;
 		output: string;
 		position: number[];
+		position_str: ENIGMA_KEY[];
 	};
 
 	status(): {
@@ -143,7 +145,7 @@ interface EnigmaSimulator {
 }
 
 interface EnigmaGenerator {
-	Rotor(model: ENIGMA_MODEL, type: ROTOR_ALL): EnigmaRotor;
+	Rotor(model: ENIGMA_MODEL, type: number): EnigmaRotor;
 	Reflector(model: ENIGMA_MODEL, type: REFLECTOR_TYPE): EnigmaReflector;
 }
 

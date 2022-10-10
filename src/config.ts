@@ -4,7 +4,7 @@ export class EnigmaConfig implements EnigmaConfig {
 	protected config: ENIGMA_ENABLE_CONFIG = {
 		model: 'EnigmaI',
 		reflector: 'C',
-		rotors: ['V', 'I', 'III'],
+		rotors: [5, 1, 3],
 		rings: ['S', 'R', 'E'],
 		plugboard: ['CS', 'ER'],
 		position: ['E', 'H', 'S'],
@@ -66,7 +66,7 @@ export class EnigmaConfig implements EnigmaConfig {
 		return this.config.reflector;
 	}
 
-	public setRotors(rotors: ROTOR_ALL[]) {
+	public setRotors(rotors: number[]) {
 		this.config.rotors = rotors;
 		return this;
 	}

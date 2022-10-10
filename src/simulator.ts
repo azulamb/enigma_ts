@@ -20,14 +20,24 @@ export class EnigmaSimulator implements EnigmaSimulator {
 	public setConfig(config: ENIGMA_CONFIG) {
 		this.config.set(config);
 
+		this.updateConfig();
+
+		return this;
+	}
+
+	public updateConfig() {
 		this.plugboard.reset();
 		this.config.getPlugboard().forEach((pair) => {
 			this.plugboard.set(pair.a, pair.b);
 		});
 
 		this.setRotors(
-			this.config.getRotors().map((config) => {
-				return this.generator.Rotor(config.model, config.rotor);
+			this.config.getRotors().map((config, index) => {
+				const rotor = this.generator.Rotor(config.model, config.rotor);
+				const reset = this.config.getPosition(index);
+				const ring = this.config.getRing(index);
+				rotor.reset(reset, ring);
+				return rotor;
 			}),
 		);
 
@@ -83,10 +93,12 @@ export class EnigmaSimulator implements EnigmaSimulator {
 			input: string;
 			output: string;
 			position: number[];
+			position_str: ENIGMA_KEY[];
 		} = {
 			input: key || '',
 			output: '',
 			position: [],
+			position_str: [],
 		};
 
 		// Plugboard
@@ -97,6 +109,7 @@ export class EnigmaSimulator implements EnigmaSimulator {
 
 		// Input
 		result.position.push(position);
+		result.position_str.push(<ENIGMA_KEY> key);
 
 		// First rotor.
 		for (let i = this.rotors.length - 1; 0 <= i; --i) {
@@ -111,6 +124,7 @@ export class EnigmaSimulator implements EnigmaSimulator {
 				return result;
 			}
 			result.position.push(position);
+			result.position_str.push(r.out);
 			result.output = r.out;
 		}
 
@@ -126,6 +140,7 @@ export class EnigmaSimulator implements EnigmaSimulator {
 			return result;
 		}
 		result.position.push(position);
+		result.position_str.push(r.out);
 		result.output = r.out;
 
 		// Next rotor
@@ -141,6 +156,7 @@ export class EnigmaSimulator implements EnigmaSimulator {
 				return result;
 			}
 			result.position.push(position);
+			result.position_str.push(r.in);
 			result.output = r.in;
 		}
 
