@@ -53,6 +53,9 @@ class EnigmaSimulator {
         this.plugboard = plugboard;
         return this;
     }
+    getRotor(index) {
+        return this.rotors[index];
+    }
     setRotors(rotors) {
         this.rotors = rotors;
         return this;
@@ -450,6 +453,9 @@ class EnigmaRotor extends EnigmaConverter {
     turnover = [
         'A'
     ];
+    getTurnover() {
+        return this.turnover.concat();
+    }
     setTurnover(keys) {
         if (!Array.isArray(keys)) {
             keys = [

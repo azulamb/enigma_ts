@@ -366,7 +366,7 @@
                     rotor.group.appendChild(rotor.line[key]);
                 });
                 Object.keys(rotor.out).forEach((key) => {
-                    rotor.out[key].back.classList.add('back');
+                    rotor.out[key].back.classList.add('back', 'etw');
                     rotor.out[key].text.classList.add('text');
                     rotor.out[key].back.dataset.key = key;
                     rotor.out[key].text.dataset.key = key;
@@ -464,6 +464,9 @@
                 }),
                 '.reflector path.convert { stroke: #cf1c9b; }',
                 '.entry rect { cursor: pointer; }',
+                ...KEYS.map((key) => {
+                    return `g[data-turnover="${key}"] rect.etw[data-key="${key}"] { fill: #71d5ef; }`;
+                }),
             ].join('');
             const back = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
             back.setAttributeNS(null, 'x', '0');
@@ -562,15 +565,24 @@
                 const data = status.rotors[i].table;
                 const linePos = {};
                 const rotor = this.rotors[i];
+                const r = this.enigma.getRotor(i);
+                if (r) {
+                    rotor.group.dataset.turnover = r.getTurnover()[0];
+                }
+                else {
+                    rotor.group.dataset.turnover = '';
+                }
                 rotor.name.textContent = `Rotor(${ROMANUM[this.enigma.getConfig().getRotor(i).rotor - 1]})`;
                 rotor.type.textContent = `Pos:${this.enigma.getConfig().getPosition(i)}`;
                 rotor.ring.textContent = `Ring:${this.enigma.getConfig().getRing(i)}`;
                 for (let n = 0; n < KEYS.length; ++n) {
                     const key = KEYS[n];
-                    rotor.in[key].text.textContent = data[n].in;
-                    rotor.out[key].text.textContent = data[n].out;
+                    rotor.in[key].back.dataset.key = data[n].in;
+                    rotor.out[key].back.dataset.key = data[n].out;
                     rotor.in[key].text.dataset.key = data[n].in;
                     rotor.out[key].text.dataset.key = data[n].out;
+                    rotor.in[key].text.textContent = data[n].in;
+                    rotor.out[key].text.textContent = data[n].out;
                     if (!linePos[data[n].in]) {
                         linePos[data[n].in] = { in: -1, out: -1 };
                     }

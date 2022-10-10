@@ -60,6 +60,10 @@ export class EnigmaSimulator implements EnigmaSimulator {
 		return this;
 	}
 
+	public getRotor(index: number): EnigmaRotor | undefined {
+		return this.rotors[index];
+	}
+
 	public setRotors(rotors: EnigmaRotor[]) {
 		this.rotors = rotors;
 		return this;

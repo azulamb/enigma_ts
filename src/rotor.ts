@@ -4,6 +4,11 @@ export class EnigmaRotor extends EnigmaConverter implements EnigmaRotor {
 	protected name = 'Rotor';
 
 	protected turnover: ENIGMA_KEY[] = ['A'];
+
+	public getTurnover() {
+		return this.turnover.concat();
+	}
+
 	public setTurnover(keys: ENIGMA_KEY | ENIGMA_KEY[]) {
 		if (!Array.isArray(keys)) {
 			keys = [keys];
