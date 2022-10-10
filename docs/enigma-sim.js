@@ -577,8 +577,13 @@
                 rotor.ring.textContent = `Ring:${this.enigma.getConfig().getRing(i)}`;
                 for (let n = 0; n < KEYS.length; ++n) {
                     const key = KEYS[n];
+                    const cls = KEYS.indexOf(data[n].out) % 2 ? 'odd' : 'even';
                     rotor.in[key].back.dataset.key = data[n].in;
                     rotor.out[key].back.dataset.key = data[n].out;
+                    rotor.in[key].back.classList.remove('odd', 'even');
+                    rotor.out[key].back.classList.remove('odd', 'even');
+                    rotor.in[key].back.classList.add(cls);
+                    rotor.out[key].back.classList.add(cls);
                     rotor.in[key].text.dataset.key = data[n].in;
                     rotor.out[key].text.dataset.key = data[n].out;
                     rotor.in[key].text.textContent = data[n].in;
