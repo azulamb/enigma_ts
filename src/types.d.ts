@@ -96,6 +96,7 @@ interface EnigmaReflector extends EnigmaConverter {
 }
 
 interface EnigmaRotor extends EnigmaConverter {
+	getTurnover(): ENIGMA_KEY[];
 	setTurnover(keys: ENIGMA_KEY | ENIGMA_KEY[]): this;
 	rotate(): boolean;
 	reset(reset: ENIGMA_KEY | '', ring: ENIGMA_KEY | ''): this;
@@ -111,6 +112,7 @@ interface EnigmaSimulator {
 
 	setPlugboard(plugboard: EnigmaPlugboard): this;
 
+	getRotor(index: number): EnigmaRotor | undefined;
 	setRotors(rotors: EnigmaRotor[]): this;
 
 	setReflector(reflector: EnigmaConverter): this;
