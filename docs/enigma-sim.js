@@ -213,6 +213,8 @@
                 this.rotate();
                 this.update();
                 this.hover();
+                this.inputArea.value = '';
+                this.outputArea.value = '';
                 dialog.close();
             });
             const contents = document.createElement('div');
