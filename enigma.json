@@ -1,7 +1,7 @@
 {
 	"model": "EnigmaI",
 	"reflector": "C",
-	"rotors": ["V", "I", "III"],
+	"rotors": [5, 1, 3],
 	"rings": ["S", "R", "E"],
 	"plugboard": ["CS", "ER"],
 	"position": ["E", "H", "S"]

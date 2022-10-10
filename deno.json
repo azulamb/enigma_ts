@@ -16,7 +16,7 @@
 	},
 	"fmt": {
 		"files": {
-			"include": ["./src", "./enigma.ts"]
+			"include": ["./src", "./enigma.ts", "docs/enigma-sim.ts"]
 		},
 		"options": {
 			"useTabs": true,

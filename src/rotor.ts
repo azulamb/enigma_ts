@@ -32,7 +32,7 @@ export class EnigmaRotor extends EnigmaConverter implements EnigmaRotor {
 			return false;
 		}
 		const turnover = this.turnover.includes(<ENIGMA_KEY> this.table[0].out);
-		this.table.push(<{ in: string; out: string; print: string }> this.table.shift());
+		this.table.push(<{ in: ENIGMA_KEY; out: ENIGMA_KEY; print: string }> this.table.shift());
 
 		return turnover;
 	}

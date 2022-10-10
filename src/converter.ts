@@ -2,7 +2,7 @@
 
 export class EnigmaConverter implements EnigmaConverter {
 	protected name = 'Converter';
-	protected type = '';
+	protected type = 0;
 	protected offset = 0;
 
 	get fullName() {
@@ -11,7 +11,7 @@ export class EnigmaConverter implements EnigmaConverter {
 
 	protected outputs: ENIGMA_KEY[];
 	protected inputs: ENIGMA_KEY[];
-	protected table: { in: string; out: string }[] = [];
+	protected table: { in: ENIGMA_KEY; out: ENIGMA_KEY }[] = [];
 
 	constructor(output: string, etw: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
 		this.outputs = <ENIGMA_KEY[]> [...etw];
@@ -44,7 +44,7 @@ export class EnigmaConverter implements EnigmaConverter {
 		}
 	}
 
-	public setType(type: string) {
+	public setType(type: number) {
 		this.type = type;
 		return this;
 	}

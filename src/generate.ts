@@ -9,29 +9,28 @@ export class EnigmaGenerate implements EnigmaGenerator {
 		this.reflector = reflector;
 	}
 
-	protected rotorEnigmaI(type: ROTOR_ENIGMA_I) {
+	protected rotorEnigmaI(type: number) {
 		const rotor: {
-			[key in ROTOR_ENIGMA_I]: {
-				table: string;
-				notch: ENIGMA_KEY;
-				turnover: ENIGMA_KEY;
-			};
-		} = {
-			'I': { table: 'EKMFLGDQVZNTOWYHXUSPAIBRCJ', notch: 'Y', turnover: 'Q' },
-			'II': { table: 'AJDKSIRUXBLHWTMCQGZNPYFVOE', notch: 'M', turnover: 'E' },
-			'III': { table: 'BDFHJLCPRTXVZNYEIWGAKMUSQO', notch: 'D', turnover: 'V' },
-			'IV': { table: 'ESOVPZJAYQUIRHXLNFTGKDCMWB', notch: 'R', turnover: 'J' },
-			'V': { table: 'VZBRGITYUPSDNHLXAWMJQOFECK', notch: 'H', turnover: 'Z' },
-		};
+			table: string;
+			notch: ENIGMA_KEY;
+			turnover: ENIGMA_KEY;
+		}[] = [
+			{ table: 'ABCDEFGHIJKLMNOPQRSTUVQXYZ', notch: 'A', turnover: 'Z' }, // Invalid.
+			{ table: 'EKMFLGDQVZNTOWYHXUSPAIBRCJ', notch: 'Y', turnover: 'Q' },
+			{ table: 'AJDKSIRUXBLHWTMCQGZNPYFVOE', notch: 'M', turnover: 'E' },
+			{ table: 'BDFHJLCPRTXVZNYEIWGAKMUSQO', notch: 'D', turnover: 'V' },
+			{ table: 'ESOVPZJAYQUIRHXLNFTGKDCMWB', notch: 'R', turnover: 'J' },
+			{ table: 'VZBRGITYUPSDNHLXAWMJQOFECK', notch: 'H', turnover: 'Z' },
+		];
 
 		return new this.rotor(rotor[type].table).setType(type).setTurnover(rotor[type].turnover);
 	}
 
-	public Rotor(model: ENIGMA_MODEL, type: ROTOR_ALL) {
+	public Rotor(model: ENIGMA_MODEL, type: number) {
 		try {
 			switch (model) {
 				case 'EnigmaI':
-					return this.rotorEnigmaI(<ROTOR_ENIGMA_I> type);
+					return this.rotorEnigmaI(type);
 			}
 		} catch (error) {
 			console.error(error);
@@ -47,6 +46,6 @@ export class EnigmaGenerate implements EnigmaGenerator {
 			'C': 'FVPJIAOYEDRZXWGCTKUQSBNMHL',
 		};
 
-		return new this.reflector(rotor[type]).setType(type);
+		return new this.reflector(rotor[type]).setType((<REFLECTOR_TYPE[]> [...'ABC']).indexOf(type) + 1);
 	}
 }
