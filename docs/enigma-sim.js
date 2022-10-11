@@ -48,7 +48,7 @@
                 ':host > div { display: grid; grid-template-rows: 1fr 1.5rem 1.5rem; position: relative; }',
                 ':host > div > button { top: 0; right: 0; width: 1rem; height: 1rem; position: absolute; padding: 0; font-size: 1rem; line-height: 1rem; }',
                 ':host > div > button::before { content: "⚙"; }',
-                '#counter { position: absolute; bottom: 4rem; left: 0; font-size: 1.5rem; background: transparent; border: none; }',
+                '#counter { position: absolute; bottom: 4rem; left: 0; font-size: 1.5rem; background: transparent; border: none; outline: none; pointer-events: none; }',
                 'svg {display: block; margin: auto; }',
                 'input { font-family: monospace; box-sizing: border-box; }',
                 'button { cursor: pointer; box-sizing: border-box; }',
